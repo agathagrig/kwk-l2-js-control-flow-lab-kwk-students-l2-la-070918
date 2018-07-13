@@ -25,5 +25,18 @@ function scuberGreetingForFeet(feet) {
    }
  }
  
- 
+ function switchOnCharmFromTip(tip) {
+   if (tip == "generous") {
+     result = ("Thank you so much.")
+     return result
+   }
+   else if (tip == "not as generous" ) {
+     result = ("Thank you.")
+     return result
+   }
+   else if (tip !== "generous"){
+     result = ("Bye.")
+     return result
+   }
+ }
  
